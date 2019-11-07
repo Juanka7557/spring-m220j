@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: mflix.api.daos.TimeoutsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.744 s <<< FAILURE! - in mflix.api.daos.TimeoutsTest
+testConfiguredWtimeout(mflix.api.daos.TimeoutsTest)  Time elapsed: 3.189 s  <<< FAILURE!
+java.lang.AssertionError: Configured `wtimeoutms` not set has expected expected:<2500> but was:<5000>
+	at mflix.api.daos.TimeoutsTest.testConfiguredWtimeout(TimeoutsTest.java:51)
+
